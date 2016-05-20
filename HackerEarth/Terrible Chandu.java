@@ -2,13 +2,6 @@
 
 // https://www.hackerearth.com/problem/algorithm/terrible-chandu/
 
-/* IMPORTANT: Multiple classes and nested static classes are supported */
-
-/*
- * uncomment this if you want to read input.
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-*/
 import java.util.*;
 class TestClass {
 	public static void main(String arg[])

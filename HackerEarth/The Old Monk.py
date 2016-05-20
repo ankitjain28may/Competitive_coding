@@ -2,12 +2,7 @@
 
 # https://www.hackerearth.com/problem/algorithm/the-old-monk/
 
-'''
-# Read input from stdin and provide input before running code
 
-name = raw_input('What is your name?\n')
-print 'Hi, %s.' % name
-'''
 t=int(raw_input())
 for i in range(0,t):
 	l=int(raw_input())

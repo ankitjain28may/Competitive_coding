@@ -1,5 +1,6 @@
+// Rounding Of
 
-// https://www.hackerearth.com/code-mania-2c/algorithm/rounding-of/submissions/
+// https://www.hackerearth.com/code-mania-2c/algorithm/rounding-of
 
 import java.util.Scanner;
  

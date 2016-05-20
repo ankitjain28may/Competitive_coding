@@ -1,4 +1,6 @@
-https://www.hackerearth.com/code-mania-2c/algorithm/subpalindrome-3/
+// SubPalindrome
+
+// https://www.hackerearth.com/code-mania-2c/algorithm/subpalindrome-3/
 
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+// Life, the Universe, and Everything
+
 //https://www.hackerearth.com/problem/algorithm/life-the-universe-and-everything/
 
 #include <stdio.h>

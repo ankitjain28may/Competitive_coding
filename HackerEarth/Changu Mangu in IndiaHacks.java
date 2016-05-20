@@ -3,13 +3,6 @@
 // https://www.hackerearth.com/problem/algorithm/changu-mangu-in-indiahacks/
 
 
-/* IMPORTANT: Multiple classes and nested static classes are supported */
-
-/*
- * uncomment this if you want to read input.
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-*/
 import java.util.*;
 class Tests {
     public static void main(String args[] ) {
