@@ -5,5 +5,8 @@
 
 a,b = raw_input().split() 
 a,b=int(a),int(b)
-c=a-b+1
+if a>b:
+	c=a-b+1
+else:
+	c=b-a+1
 print c
