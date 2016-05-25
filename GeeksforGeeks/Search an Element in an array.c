@@ -21,15 +21,17 @@ int main() {
 			if(a[i]==e)
 			{
 				x=i;
+				flag=1;
 				break;
 			}
 		}
 		if(flag==1)
 		{
-			printf("%d",x);
+			printf("%d\n",x);
 		}
 		else
-			printf(-1);
+			printf("-1\n");
+		t--;
 	}
 
 	return 0;
