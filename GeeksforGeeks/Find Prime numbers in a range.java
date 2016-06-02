@@ -3,6 +3,7 @@
 
 // Java program to find prime number greater than a
 // given number using built in method
+
 import java.util.*;
 import java.math.*;
  
