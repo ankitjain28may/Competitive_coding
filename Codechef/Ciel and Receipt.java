@@ -8,29 +8,22 @@ class Main
 {
   public static void main(String arg[])throws IOException
   {
-    int a[] = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048};
     Scanner s = new Scanner(System.in);
-    int sum, v;
+    int quo, rem, v;
     int t = s.nextInt();
     while (t != 0)
     {
-      sum = 0;
       v = s.nextInt();
-      if (v >= a[11]) {
-        while ( v >= a[11]) {
-          v = v - a[11];
-          sum++;
-        }
-      }
+      quo = v / 2048;
+      rem = v % 2048;
 
-      for (int i = 10; i >=0; i--) {
-        if (v >= a[i]) {
-          v = v - a[i];
-          sum++;
+      while (rem > 0) {
+        if (rem%2 == 1) {
+            quo ++;
         }
+        rem/=2;
       }
-      sum = sum + v;
-      System.out.println(sum);
+      System.out.println(quo);
       t--;
     }
   }
